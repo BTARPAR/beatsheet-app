@@ -1,0 +1,21 @@
+.pill {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 5px 8px;
+    display: inline-block;
+    font-size: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.pill:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Added box-shadow on hover */
+}
+
+.pill.clicked {
+    transform: scale(0.9);
+    box-shadow: none; /* Reset box-shadow on click */
+}

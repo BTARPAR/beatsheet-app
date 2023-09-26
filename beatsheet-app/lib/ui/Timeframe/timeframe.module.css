@@ -1,0 +1,19 @@
+.timeframePanel {
+    position: relative;
+    height: 50px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    cursor: pointer;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.1) 1px, transparent 1px);
+    background-size: 20px 20px; /* Adjust the size of the grid squares */
+    background-position: center;
+}
+
+.selection {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background-color: rgba(0, 123, 255, 0.3);
+}

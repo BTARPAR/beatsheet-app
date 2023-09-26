@@ -1,0 +1,59 @@
+.tracker {
+    margin-top: 2rem;
+}
+
+.task {
+    position: relative;
+    background-color: white;
+    color: #000000;
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: transform 0.3s ease;
+    margin: 1rem 0;
+    box-shadow: 5px 5px 2rem rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: space-between;
+}
+
+.task:hover {
+    cursor: pointer;
+    background-color: rgb(143, 182, 248);
+    color: white;
+    transform: scale(1.15);
+}
+.taskContainer {
+    padding: 5px;
+}
+.taskName {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.taskInfo {
+    font-size: 1em;
+    margin-bottom: 6px;
+}
+
+.taskContent {
+    font-size: 1em;
+    font-style: italic;
+}
+
+.taskCameraAngle {
+    font-size: 1em;
+    margin-bottom: 6px;
+}
+
+.taskNotes {
+    font-size: 1em;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content:space-between;
+}
+
+.btnContainer > :nth-child(odd), .btnContainer > :nth-child(even) {
+    margin: 0 5px;
+}

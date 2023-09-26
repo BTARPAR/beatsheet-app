@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    padding: 10px;
+    color: white;
+    margin-bottom: 3rem;
+}
+
+.title {
+    text-align: center;
+    margin: 0;
+    flex-grow: 1;
+}
+
+.createButton {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.createButton:hover {
+    transform: scale(1.1); /* Pull up by 5 pixels on hover */
+}
+
+.createButton:active {
+    transform: scale(0.9);
+}
